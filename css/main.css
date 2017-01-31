@@ -1,6 +1,6 @@
 html {
   font-family: 'Overpass', sans-serif;
-  background: linear-gradient(#ff9500, #ff5e3a)
+  background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
 .white {
@@ -15,7 +15,19 @@ a {
   padding: .35em .75em;
 }
 
+btn:hover {
+  color: #ff2;
+}
+
 div {
   padding-bottom: 30px;
   border-bottom: solid 3px rgba(255, 255, 255, .5);
+}
+
+@media only screen and (min-width: 60em) {
+
+  div {
+    border-bottom: none;
+    border-right: solid 3px rgba(255, 255, 255, .5);
+  }
 }
