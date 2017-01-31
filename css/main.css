@@ -1,0 +1,21 @@
+html {
+  font-family: 'Overpass', sans-serif;
+  background: linear-gradient(#ff9500, #ff5e3a)
+}
+
+.white {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  border: solid rgba(255, 255, 255, .7) 3px;
+  border-radius: 3px;
+  padding: .35em .75em;
+}
+
+div {
+  padding-bottom: 30px;
+  border-bottom: solid 3px rgba(255, 255, 255, .5);
+}
